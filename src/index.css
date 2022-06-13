@@ -1,0 +1,23 @@
+.light-theme {
+  --menu-background: #f7f7f7;
+  --body-background: #f2f2f2;
+  --text-color: #282828;
+  --menu-hover: #dee2e6;
+  --priority-background: #ede9fe;
+  --profile-ctn-background: #ffffff;
+  --empty-template-color: #9aa0a6;
+  --filters-background: #f2f2f2;
+  --modal-btn-hover: #dee2e6;
+}
+
+.dark-theme {
+  --menu-background: #171923;
+  --body-background: #1a202c;
+  --text-color: #ffffffeb;
+  --menu-hover: #2d3748;
+  --priority-background: #ede9fe;
+  --profile-ctn-background: #2d3748;
+  --empty-template-color: #9aa0a6;
+  --filters-background: #2d3748;
+  --modal-btn-hover: #9aa0a6;
+}

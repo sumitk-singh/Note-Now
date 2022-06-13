@@ -1,0 +1,57 @@
+:root {
+    --color-dark: #000000;
+    --color-light-theam: #a3c0ff;
+    --color-light: #ffffff;
+}
+
+/* home page layout */
+.main-container-home-page {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.section-2 {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--color-light-theam);
+    gap: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    margin-left: 1rem;
+    margin-right:1rem ;
+
+
+}
+
+/* -----end of home page layout----- */
+/* page style */
+.btn-section-1 {
+    margin-top: 1rem;
+    border: none;
+    padding: 5px;
+    width: 8rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-section-1:hover {
+    transform: scale(1.2);
+    background: var(--color-dark);
+    transition: background 0.5s;
+    color: var(--color-light);
+}
+
+#home-page-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 20rem;
+}
+
+
+/* -----end of page style----- */
