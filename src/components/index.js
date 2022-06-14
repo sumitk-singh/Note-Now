@@ -6,8 +6,10 @@ export {NoteModal} from "./NoteModal";
 export {AddNoteOptions} from "./AddNoteOptions";
 export {EditNoteOptions} from "./EditNoteOptions";
 export {NoNotes} from "./NoNotes";
+export {ArchiveIcon} from "./icon components/ArchiveIcon";
+export {UnarchiveIcon} from "./icon components/UnarchiveIcon";
 export {LabelModal} from "./LabelModal";
 export {LabelInput} from "./LabelInput";
 export {LabelIcon} from "./icon components/LabelIcon";
 export {PaletteIcon} from "./icon components/PaletteIcon";
-
+export {FilterIcon} from "./icon components/FilterIcon";
