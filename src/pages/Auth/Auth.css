@@ -1,0 +1,80 @@
+:root{
+  --form-background-color:#f0f0f0;
+  --form-background-light-color:#ffffff;
+}
+
+.auth-form-ctn {
+  background-color: var(--form-background-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  height: 100vh;
+}
+
+form.auth-form {
+  background-color:var(--form-background-light-color) ;
+  padding: 2rem 4rem;
+  width: 100%;
+  margin: 4rem auto;
+  max-width: 31.25rem;
+  height: fit-content;
+}
+
+.form-control {
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.form-control label {
+  display: block;
+  padding-bottom: 0.125rem;
+}
+
+.form-control label{
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+input.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+ 
+}
+
+
+.form-control button {
+  width: 100%;
+}
+
+.account-toggle a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hide-password {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1.2rem;
+}
+
+/* login */
+.forgot-pw {
+  padding-left: 3rem;
+  
+}
+
+/* logout */
+.logout-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+button.btn-icon-text-outline {
+  margin: 0;
+ 
+}
+

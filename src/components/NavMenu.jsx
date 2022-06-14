@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useNotes, useMobileMenu } from "../context";
-import { Footer} from "./index";
+import { Footer, NoteModal, LabelModal } from "./index";
 import Logo from '../../src/assets/images/logo.png'
 
 const NavMenu = () => {
