@@ -1,0 +1,19 @@
+.profile-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 31.25rem;
+  margin: 1rem auto;
+  background-color: #0172FF;
+}
+
+.profile-img>img {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem auto;
+}

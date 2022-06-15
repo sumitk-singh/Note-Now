@@ -1,8 +1,11 @@
 import "./App.css";
+
 import { Routes, Route } from "react-router-dom";
+import { useTheme } from "./context";
 import {
   Home,
   Notes,
+  Archive,
   Label,
   PageNotFound,
 } from "./pages";
@@ -11,7 +14,7 @@ function App() {
   const { theme } = useTheme();
   return (
     <div className={`App ${theme}`}>
-      {/* <ToastContainer autoClose={1200} /> */}
+    
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route
@@ -22,7 +25,14 @@ function App() {
             </RequiresAuth>
           }
         />
-       
+        <Route
+          path={"/archive"}
+          element={
+            <RequiresAuth>
+              <Archive />
+            </RequiresAuth>
+          }
+        />
         <Route
           path={"/label/:labelName"}
           element={
