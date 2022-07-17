@@ -1,6 +1,8 @@
 :root{
   --form-background-color:#f0f0f0;
   --form-background-light-color:#ffffff;
+  --color-primary:#0072FF;
+  --color-secondary: #ffffff;
 }
 
 .auth-form-ctn {
@@ -78,3 +80,24 @@ button.btn-icon-text-outline {
  
 }
 
+/* ---------- */
+
+.btn-primary{
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+
+.btn-primary-outline{
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.btn-primary-outline:hover{
+  color: var(--color-secondary);
+  background: var(--color-primary);
+}
