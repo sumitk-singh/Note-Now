@@ -4,7 +4,7 @@ const Footer = () => {
       <p>Made by Sumit Kumar Singh</p>
       <div className="footer-links">
         <a
-          href="https://www.linkedin.com/in/sumit-kr-singh-a94b56228/"
+          href="https://www.linkedin.com/in/sumit-singh-a94b56228/"
           target="_blank"
         >
           <i className="fab fa-linkedin-in"></i>
