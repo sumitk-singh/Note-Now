@@ -51,6 +51,7 @@ const Note = ({noteData}) => {
       <div className="note-option-ctn">
         <span className="note-date">{dateOnNote(date)}</span>
         <div className="note-option">
+          <p>Priority:</p>
           {location.pathname === "/archive" ? (
             ""
           ) : (
