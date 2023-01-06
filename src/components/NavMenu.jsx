@@ -39,7 +39,7 @@ const NavMenu = () => {
               >
                 <i class="fa fa-pencil-square" aria-hidden="true"></i>
                 <p id="spacer"></p>
-                label
+                label-
                 {item.label}
               </NavLink>
             ))}
